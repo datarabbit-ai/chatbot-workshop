@@ -2,3 +2,5 @@
 chroma_langchain_db
 *.env
 venv
+
+.streamlit/

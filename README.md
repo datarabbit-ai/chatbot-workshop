@@ -23,3 +23,17 @@ Start a notebook
 ```
 $ jupyter lab .
 ```
+
+## Starting demo
+
+create file `.streamlit/secrets.toml` with content:
+
+```
+OPENAI_API_KEY = "YOUR_API_KEY"
+```
+
+run from terminal:
+
+```
+streamlit run app.py
+```
