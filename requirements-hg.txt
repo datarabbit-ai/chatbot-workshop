@@ -1,0 +1,1 @@
+langchain-huggingface==0.0.3

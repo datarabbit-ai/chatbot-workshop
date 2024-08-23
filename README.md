@@ -18,6 +18,12 @@ Install required packages
 $ pip3 install -r requirements.txt
 ```
 
+If you want to run additional content with huggingface - install required packages for it:
+
+```
+$ pip3 install -r requirements-hg.txt
+```
+
 Start a notebook
 
 ```
@@ -35,5 +41,6 @@ OPENAI_API_KEY = "YOUR_API_KEY"
 run from terminal:
 
 ```
-streamlit run app.py
+$ pip3 install -r requirements-demo.txt
+$ streamlit run app.py
 ```
