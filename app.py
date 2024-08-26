@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 st.title("ChatGPT-like clone")
 
 if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-3.5-turbo"
+    st.session_state["openai_model"] = "gpt-4o-mini"
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
